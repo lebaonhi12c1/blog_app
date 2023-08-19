@@ -47,12 +47,14 @@ function ImageUpLoad( { onChange, value }: ImageUpLoadProps ) {
                             {
                                 value &&
                                 (
-                                    <div>
+                                    <div
+                                        className='relative h-[25rem] border border-dashed'
+                                    >
                                         <Image
                                             alt='image'
                                             fill
                                             src={ value }
-                                            className=' object-cover'
+                                            className=' object-contain'
                                         />
                                     </div>
                                 )

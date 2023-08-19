@@ -5,7 +5,7 @@ const nextConfig = {
     {
         domains:
         [
-            'res.clodinary.com'
+            'res.cloudinary.com'
         ]
     }
 }
